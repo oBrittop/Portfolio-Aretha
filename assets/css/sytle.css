@@ -1,0 +1,28 @@
+img {
+    max-width: 200px;
+    max-height: 200px; /* Limita a altura também, para manter a proporção */
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Faz com que a imagem fique circular */
+    border: 1px solid black;
+    object-fit: cover; /* Ajusta a imagem para cobrir a área sem distorção */
+}
+body{
+    background-color: rgb(180, 180, 180);
+}
+.icon{
+   height: 70px;
+   width: 65px;
+}
+.icon2{
+    height: 63px;
+    width: 63px;
+    border-radius: 70%;
+ }
+.icon-fab{
+    font-size: 300%;
+ }
+ .endereco{
+    font-size: larger;
+    color: green;
+ }
